@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const token = process.env.token;
 var prefix = "!"
 
-client.login('token');
+client.login(token);
 
 client.on('guildMemberAdd', member =>{
     member.guild.channels.get('550808681403514883').send('**Bievenue**' + member.user + 'nous sommes une communauté de jeux');
