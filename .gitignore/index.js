@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = "!"
 
-client.login('NTUwODA3Njc4NzU1Mjc0NzU2.D1nzug.FdCSfO77qVPNICR3VyfR4tLnvos');
+client.login('token');
 
 client.on('guildMemberAdd', member =>{
     member.guild.channels.get('550808681403514883').send('**Bievenue**' + member.user + 'nous sommes une communauté de jeux');
