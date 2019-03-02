@@ -80,5 +80,9 @@ client.on("message", message => {
     }
 });
 
-/*warn*/
+/*aide*/
+
+client.on('ready',() => {
+    client.user.setPresence({ game:{ name: "!aide pour mes commandes <3", type: 0}})
+});
 
